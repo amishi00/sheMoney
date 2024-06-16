@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E5296EF2BF7506100CBDF94 /* survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5296EE2BF7506100CBDF94 /* survey.swift */; };
+		5E5296F12BF7516700CBDF94 /* allSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5296F02BF7516700CBDF94 /* allSet.swift */; };
+		5E5296F32BF79D2700CBDF94 /* stocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5296F22BF79D2700CBDF94 /* stocks.swift */; };
 		5E9E3F5C2BF69F6F00A3F685 /* SheMoneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E3F5B2BF69F6F00A3F685 /* SheMoneyApp.swift */; };
 		5E9E3F5E2BF69F6F00A3F685 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E3F5D2BF69F6F00A3F685 /* ContentView.swift */; };
 		5E9E3F602BF69F7100A3F685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9E3F5F2BF69F7100A3F685 /* Assets.xcassets */; };
@@ -14,6 +17,15 @@
 		5E9E3F6D2BF69F7100A3F685 /* SheMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E3F6C2BF69F7100A3F685 /* SheMoneyTests.swift */; };
 		5E9E3F772BF69F7100A3F685 /* SheMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E3F762BF69F7100A3F685 /* SheMoneyUITests.swift */; };
 		5E9E3F792BF69F7100A3F685 /* SheMoneyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E3F782BF69F7100A3F685 /* SheMoneyUITestsLaunchTests.swift */; };
+		5E9E3F862BF69F9500A3F685 /* SalaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E3F852BF69F9500A3F685 /* SalaryViewModel.swift */; };
+		5EAF27FB2BF716CE005F6E2F /* quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF27FA2BF716CE005F6E2F /* quiz.swift */; };
+		5EAF27FD2BF7201C005F6E2F /* retirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF27FC2BF7201C005F6E2F /* retirement.swift */; };
+		5EAF27FF2BF72482005F6E2F /* genderPay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF27FE2BF72482005F6E2F /* genderPay.swift */; };
+		5EAF28012BF72624005F6E2F /* FinancialResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF28002BF72624005F6E2F /* FinancialResources.swift */; };
+		5EAF28032BF72E24005F6E2F /* chatDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF28022BF72E24005F6E2F /* chatDetail.swift */; };
+		5EAF28052BF738BA005F6E2F /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF28042BF738BA005F6E2F /* loginPage.swift */; };
+		5EAF28072BF73B2E005F6E2F /* savings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF28062BF73B2E005F6E2F /* savings.swift */; };
+		5EAF28092BF745AB005F6E2F /* shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAF28082BF745AB005F6E2F /* shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E5296EE2BF7506100CBDF94 /* survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = survey.swift; sourceTree = "<group>"; };
+		5E5296F02BF7516700CBDF94 /* allSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allSet.swift; sourceTree = "<group>"; };
+		5E5296F22BF79D2700CBDF94 /* stocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stocks.swift; sourceTree = "<group>"; };
 		5E9E3F582BF69F6F00A3F685 /* SheMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SheMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9E3F5B2BF69F6F00A3F685 /* SheMoneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheMoneyApp.swift; sourceTree = "<group>"; };
 		5E9E3F5D2BF69F6F00A3F685 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +59,15 @@
 		5E9E3F722BF69F7100A3F685 /* SheMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SheMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9E3F762BF69F7100A3F685 /* SheMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheMoneyUITests.swift; sourceTree = "<group>"; };
 		5E9E3F782BF69F7100A3F685 /* SheMoneyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheMoneyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E9E3F852BF69F9500A3F685 /* SalaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryViewModel.swift; sourceTree = "<group>"; };
+		5EAF27FA2BF716CE005F6E2F /* quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quiz.swift; sourceTree = "<group>"; };
+		5EAF27FC2BF7201C005F6E2F /* retirement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retirement.swift; sourceTree = "<group>"; };
+		5EAF27FE2BF72482005F6E2F /* genderPay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = genderPay.swift; sourceTree = "<group>"; };
+		5EAF28002BF72624005F6E2F /* FinancialResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialResources.swift; sourceTree = "<group>"; };
+		5EAF28022BF72E24005F6E2F /* chatDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatDetail.swift; sourceTree = "<group>"; };
+		5EAF28042BF738BA005F6E2F /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
+		5EAF28062BF73B2E005F6E2F /* savings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = savings.swift; sourceTree = "<group>"; };
+		5EAF28082BF745AB005F6E2F /* shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +122,18 @@
 				5E9E3F5D2BF69F6F00A3F685 /* ContentView.swift */,
 				5E9E3F5F2BF69F7100A3F685 /* Assets.xcassets */,
 				5E9E3F612BF69F7100A3F685 /* Preview Content */,
+				5E9E3F852BF69F9500A3F685 /* SalaryViewModel.swift */,
+				5EAF27FA2BF716CE005F6E2F /* quiz.swift */,
+				5EAF27FC2BF7201C005F6E2F /* retirement.swift */,
+				5EAF27FE2BF72482005F6E2F /* genderPay.swift */,
+				5EAF28002BF72624005F6E2F /* FinancialResources.swift */,
+				5EAF28022BF72E24005F6E2F /* chatDetail.swift */,
+				5EAF28042BF738BA005F6E2F /* loginPage.swift */,
+				5EAF28062BF73B2E005F6E2F /* savings.swift */,
+				5EAF28082BF745AB005F6E2F /* shop.swift */,
+				5E5296EE2BF7506100CBDF94 /* survey.swift */,
+				5E5296F02BF7516700CBDF94 /* allSet.swift */,
+				5E5296F22BF79D2700CBDF94 /* stocks.swift */,
 			);
 			path = SheMoney;
 			sourceTree = "<group>";
@@ -258,7 +294,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E9E3F5E2BF69F6F00A3F685 /* ContentView.swift in Sources */,
+				5E5296EF2BF7506100CBDF94 /* survey.swift in Sources */,
 				5E9E3F5C2BF69F6F00A3F685 /* SheMoneyApp.swift in Sources */,
+				5EAF28092BF745AB005F6E2F /* shop.swift in Sources */,
+				5EAF28052BF738BA005F6E2F /* loginPage.swift in Sources */,
+				5EAF27FB2BF716CE005F6E2F /* quiz.swift in Sources */,
+				5EAF28012BF72624005F6E2F /* FinancialResources.swift in Sources */,
+				5E5296F12BF7516700CBDF94 /* allSet.swift in Sources */,
+				5E9E3F862BF69F9500A3F685 /* SalaryViewModel.swift in Sources */,
+				5EAF27FD2BF7201C005F6E2F /* retirement.swift in Sources */,
+				5E5296F32BF79D2700CBDF94 /* stocks.swift in Sources */,
+				5EAF28032BF72E24005F6E2F /* chatDetail.swift in Sources */,
+				5EAF27FF2BF72482005F6E2F /* genderPay.swift in Sources */,
+				5EAF28072BF73B2E005F6E2F /* savings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
