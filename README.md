@@ -15,8 +15,6 @@ The plan includes:
 
 4. HOW TO Guide The final section of the plan covers information and materials for further knowledge. This section will be a paid service.
 
-Overall, we expose our users to retirement accounts, considering the gender pay gap, saving habits, and stock trading.
-
 ## How we built it
 Our process included:
 
@@ -33,6 +31,8 @@ Formulas for Investment Account Suggestions Algorithms:
 2. 401k FV=.7((PV×(1+r)^n)+M ) Where: FV = Future Value of the 401(k) account PV = initial investment (contributions) r = .06 n = Number of years the money is invested (Retirement - age) M = Total employer matching contributions over the investment period which is assumed Pre Tax
 
 3. HSA Account FV=PV×(1+r)^n Where: FV = Future Value of the HSA account PV = Present Value or initial investment (contributions) r = Annual interest rate (expressed as a decimal) n = Number of years the money is invested
+
+Built using: figma (design/mockup), swift (frontend), and python (machine learning).
 
 ## Demo/Acknowledgement
 This project was made as a part of FidHacks 2024 and the devpost for it is available here: https://devpost.com/software/hemoney. The demo is available here: https://drive.google.com/file/d/1uuWSHZ_yiHdG64KgeTSstsu01ZqXqqsz/view. The application was made in collaboration with Amishi Gupta, Grace Odondi, Kiara Smith, and Manahil-Tariq Tariq.
